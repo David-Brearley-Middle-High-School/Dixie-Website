@@ -1,0 +1,197 @@
+body {
+    background: #107474;
+} 
+
+h2 {
+    color: aqua;
+    margin-bottom: -5;
+    margin-top: 13;
+    text-shadow: 4px 3px black;
+    font-weight: bold;
+    font-size: 26px;
+
+}
+
+h1 {
+    text-align: center;
+    text-decoration: overline underline;
+    text-transform: uppercase;
+    text-shadow: 1px 1px black;
+    padding-bottom: 30px
+}
+
+.swag {
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.button {
+    border: 2px solid black;
+    color: #ffffff;
+    border-radius: 10px;
+    text-align: center;
+    background-color: #000;
+    font-family: "Arial"; 
+    font-size: 30px;
+    box-shadow:
+    0 8px 16px 0 rgba(0,0,0,0.2),
+    0 6px 20px 0 rgba(0,0,0,0.19);
+    cursor: grab;
+    text-decoration: none;   
+}
+
+.button span {
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+  color: white;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: static;
+  opacity: 0;
+}
+
+.button:hover span {
+  padding-left: 6px;
+  padding-right: 6px;
+  color: white;
+  transition: 0.1s;
+  font-family: "Arial";
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+  left: 0;
+
+}
+
+.button:hover {
+    background-color: #000
+}
+
+.button:active {
+  background-color: #000;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+  border: 2px solid #333;
+  position: fixed;
+  top: 0; 
+  left: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+  border-right: 1px solid #bbb;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: lightsteelblue;
+  color: black;
+  font-weight: bold;
+   font-family: "Arial";
+}
+
+.active {
+  background-color: cadetblue;
+}
+
+.TheFrames {
+    border: px solid black;
+    border-radius: 40px;
+    padding-right: 0;
+    padding-left: ;
+    background-color: black;
+    width: 99%;
+    margin-left: 5;
+    margin-right: 10; 
+    margin-bottom: 10;
+    
+}
+
+.div1 {
+    text-align-last: center;
+    border-left-style: 4px solid black;
+    background-color: grey;
+    border: 4px solid grey;
+    position: relative;
+    width: 90px;
+    height: 10px;
+}
+
+#Navbar {
+    display: block;
+    text-align: center;
+    width: 100%;
+    float: right;
+    padding: 
+}
+
+.logging {
+    background-color: cadetblue;
+    border-left: 1px solid white;
+    margin-left: 155px;
+    text-align: center;
+}
+
+.logging:hover:not(.active) {
+  background-color: lightsteelblue;
+  color: black;
+  font-weight: bold;
+   font-family: "Arial";
+}
+
+.dixiepic {
+    border: 7px solid #0c5c5c;
+    display: block;
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h3 {
+      text-align: center;
+}
+
+h4 {
+    text-align: center;
+    color: black;
+    font-weight: none;
+    font-size: 17px;
+}
+
+.emailss {
+    background-color: cadetblue;
+    border: 2px solid #0c5c5c;
+    border-radius: 12px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 250px;
+    margin-bottom: -16px;
+    
+}

@@ -1,0 +1,40 @@
+<html>
+<head>
+  <title>Firebase Login</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+ <div id="login_div" class="main-div">
+    <h3 class = "LoginRead">Dixie Login</h3>
+    <input type="email" placeholder="Email..." id="email_field" />
+    <input type="password" placeholder="Password..." id="password_field" />
+     <button onclick="login()">Login to Account</button>
+  </div>
+
+
+  <div id="user_div" class="loggedin-div">
+    <h3 class = "LoginRead">Welcome User</h3>
+    <p id="user_para">Welcome to Firebase web login Example. You're currently logged in.</p>
+    <button onclick="logout()">Logout</button>
+    <button onclick="location.href = 'index1.html';">To Hub</button>
+  </div>
+
+
+
+  <script src="https://www.gstatic.com/firebasejs/7.9.3/firebase.js"></script>
+  <script>
+    var config = {
+      apiKey: "AIzaSyBNniqkm-EIZFt2xN1Y31j5p726rS5LMq4",
+      authDomain: "dixie-website-demo.firebaseapp.com",
+      databaseURL: "https://dixie-websitedemo.firebaseio.com",
+      projectId: "dixie-website-demo",
+      storageBucket: "dixie-website-demo.appspot.com",
+      messagingSenderId: "565983050156"
+    };
+    firebase.initializeApp(config);
+  </script>
+  <script src="index.js"></script>
+
+</body>
+</html>
